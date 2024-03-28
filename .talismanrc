@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: auth/package-lock.json
+  checksum: 5f7da39a1abe51edb827e4d3bd50f6f269502c4781e4ee72c71af9839e85dd93
+version: ""
