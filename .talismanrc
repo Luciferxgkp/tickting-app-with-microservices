@@ -1,6 +1,8 @@
 fileignoreconfig:
-- filename: auth/yarn.lock
-  checksum: c2d924e3da36fd9ada577fe56280a2b8c8aadff8641cb7df77f6d01bf8b7befb
 - filename: auth/src/routes/signin.ts
   checksum: 1f5563660287cd2658dbb4243e6a2b0a17a128b9d8e5688b4ec43ca88308019f
+- filename: auth/yarn.lock
+  checksum: 584ac96964e19b8202b49cac626aae5cd62a7eaaf8d2bb3a41adb408b0e45222
+- filename: auth/src/routes/signup.ts
+  checksum: 37ea14bd1de268884956e053b82fd0375e4c2b0d2828fd0f4c9034f773b3ef54
 version: ""
