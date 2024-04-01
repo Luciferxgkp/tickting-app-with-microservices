@@ -6,6 +6,7 @@ import { signoutRouter } from "./routes/signout";
 import { signupRouter } from "./routes/signup";
 import { errorHandler } from "./middleware/error-handler";
 import { NotFoundError } from "./errors/not-found-error";
+import mongoose from "mongoose";
 import "express-async-errors";
 
 const app = express();
@@ -20,6 +21,16 @@ app.all("*", async () => {
 });
 app.use(errorHandler);
 
-app.listen(3000, () => {
-  console.log("Auth service is running on PORT : 3000");
-});
+const start = async () => {
+  try {
+    await mongoose.connect("mongodb://auth-mongo-srv:27017/auth");
+
+    app.listen(3000, () => {
+      console.log("Auth service is running on PORT : 3000");
+    });
+  } catch (error) {
+    console.error(error);
+  }
+};
+
+start();
