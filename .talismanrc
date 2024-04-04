@@ -1,12 +1,16 @@
 fileignoreconfig:
 - filename: auth/src/routes/signin.ts
   checksum: 1f5563660287cd2658dbb4243e6a2b0a17a128b9d8e5688b4ec43ca88308019f
-- filename: auth/yarn.lock
-  checksum: 584ac96964e19b8202b49cac626aae5cd62a7eaaf8d2bb3a41adb408b0e45222
 - filename: auth/src/routes/signup.ts
   checksum: 37ea14bd1de268884956e053b82fd0375e4c2b0d2828fd0f4c9034f773b3ef54
 - filename: auth/src/services/password.ts
   checksum: 2b806943ffef161808bbf99cbfc090db373b05b39cbc46748f23637809c31f13
 - filename: auth/src/models/user.ts
   checksum: 1a1fea2c3aefaa0f29c84b6a9c3fc8dcf44bc5e56e564a85f1ef93c57ebe4821
+- filename: auth/yarn.lock
+  checksum: 453422dc16c311bc8dc3c40cc3fdcbab12ff3ea2931ed89744f34cdfc2e9c0e4
+- filename: auth/package-lock.json
+  checksum: 778ceb2aaa1f0b5d6b11f1a03628180c9e222b5ceba4b2b6b47e2b3c1fac7681
+- filename: infra/k8s/auth-depl.yaml
+  checksum: d1393add72ae5c31d6de6e9e0a4bc1fdef050e75f06e4f22926ada8531ee162e
 version: ""
