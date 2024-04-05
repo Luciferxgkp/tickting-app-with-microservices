@@ -1,6 +1,6 @@
 fileignoreconfig:
 - filename: auth/src/routes/signin.ts
-  checksum: 1f5563660287cd2658dbb4243e6a2b0a17a128b9d8e5688b4ec43ca88308019f
+  checksum: a89399033b384ce9fd12274a2e6a0656d33f39972c44f60e2ef37cfae125667a
 - filename: auth/src/routes/signup.ts
   checksum: 37ea14bd1de268884956e053b82fd0375e4c2b0d2828fd0f4c9034f773b3ef54
 - filename: auth/src/services/password.ts
